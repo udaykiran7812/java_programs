@@ -8,6 +8,7 @@ public class StringOperations {
         }
     }
 
+
     private void printGivenString(String str1) {
         if ("dev".equals(str1)) {// string constant can compare with null but null.equals(string const) throws null pointer exception
             System.out.println("Given string is dev");
